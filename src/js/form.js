@@ -33,7 +33,7 @@ export function initForm() {
     } catch {
       const error = document.createElement('p');
       error.className = 'form__error';
-      error.textContent = 'Wystąpił błąd. Prosimy spróbować później lub zadzwonić pod +48 500 000 000.';
+      error.textContent = 'Wystąpił błąd. Prosimy spróbować później lub zadzwonić pod +48 518 337 406.';
       form.appendChild(error);
     } finally {
       submitBtn.disabled = false;
